@@ -10,9 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SecretMessage">
         <activity
-            android:name=".EncryptFragment"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

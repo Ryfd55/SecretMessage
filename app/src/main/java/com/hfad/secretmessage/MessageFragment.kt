@@ -24,9 +24,18 @@ class MessageFragment : Fragment() {
             val message = messageView.text.toString()
             val action = MessageFragmentDirections
                 .actionMessageFragmentToEncryptFragment(message)
-            view.findNavController().navigate(action)
+            view.findNavController()
+                .navigate(action)
         }
 
         return view
     }
 }
+
+
+
+
+
+
+
+
